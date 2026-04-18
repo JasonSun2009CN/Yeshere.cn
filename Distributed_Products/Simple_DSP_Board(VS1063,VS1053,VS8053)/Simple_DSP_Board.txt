@@ -1,0 +1,40 @@
+Features
+
+·                  VS1063, VS1053 or VS8053 DSP processor
+
+·                  MP3, WMA, AAC, HE-AAC, OGG, WAV, MIDI decoding (with VS1053 processor)
+
+·                  MP3, WMA, AAC, HE-AAC, OGG, WAV, FLAC decoding (with VS1063 processor)
+
+·                  OGG, WAV, MIDI decoding (with VS8053 processor)
+
+·                  PCM, IMA ADPCM encoding (with VS1053 and VS8053 processors)
+
+·                  PCM, IMA APDCM, G.711 ulaw/A-law, G.722 ADPCM, Ogg Vorbis, MP3 encoding (with VS1063 processor)
+
+·                  AT25DF041A or equivalent 4 megabit SPI boot flash
+
+·                  Single 5V input, LDO linear regulators for CVDD, AVDD and IOVDD.
+
+·                  1 push-button and 4 LEDs for user interface
+
+·                  26-pin header for signals, including stereo line in, line out and headphone out
+
+·                  UART connections for debug interface, SPI control/data bus for microcontroller
+
+·                  Easily integrated to custom PCB for rapid application development
+
+·                  Hi-Fi quality audio performance
+
+·                  Supported by VSIDE development tools
+
+Description
+
+The VS1063 / VS1053 / VS8053 Simple DSP Board is a small, low-cost and high performance audio DSP board for the VS1063, VS1053 or VS8053 Audio Codec IC.
+
+The VSx053 Simple DSP Board is meant to be used in DSP software developement and as a "plug-in" module in electronic applications. The board has two rows of pin headers, one on each edge of the board. One edge has digital connections for connecting to a serial port or to an SPI port. This can be used to interface the board with a PC and VSIDE or a host microcontroller. The other edge has analog connections featuring Line In, Line Out and Headphone Out. Line In and Line Out are AC-coupled and can be connected directly to other audio circuits.
+
+The board has necessary power supplies for the VSx053. It also has four LEDs, and a button for UI. A boot EEPROM is included so that application software and also sound samples can be stored on the board.
+
+The board can be used with the VSx053 Simple DSP Host board for easy
+connectivity to the outside world.

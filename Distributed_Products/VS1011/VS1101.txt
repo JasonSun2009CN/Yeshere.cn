@@ -1,0 +1,37 @@
+Introduction
+
+The VS1011 is VLSI Solution's basic MP3 decoder chip. It has a reliable and high-quality MP3 and WAV decoding engine combined with a stereo D/A converter and earphone amplifier. Although intended as slave processor, the VS1011 also has a standalone mode that can be used to create a simple standalone MP3 player. Available in two difference packages, this IC is truly customer-proven: already ten million units have been delivered!
+
+Features
+
+·                  Decodes MP3 (MPEG 1.0 & 2.0 audio layer III (CBR, VBR, ABR));
+MP1 & MP2 (MPEG 1.0 & 2.0 audio layers I & II) optional;
+WAV (PCM + IMA ADPCM)
+
+·                  Full 320 kbit/s MP3 with 12.0 MHz external clock
+
+·                  Streaming support for MP1/2/3 and WAV
+
+·                  Bass and treble controls
+
+·                  Operates with single 12 - 13 MHz or 24 - 26 MHz external clock
+
+·                  Internal clock doubler
+
+·                  Low-power operation
+
+·                  High-quality stereo DAC with no phase error between channels
+
+·                  Stereo earphone driver capable of driving a 30­ ohm load
+
+·                  Separate 2.5...3.6 V operating voltages for analog and digital
+
+·                  Serial control and data interfaces
+
+·                  Can be used as a slave co-processor
+
+·                  5.5 KiB On-chip RAM for user code / data
+
+·                  SPI flash boot for special applications
+
+·                  New functions may be added with software and 4 GPIO pins

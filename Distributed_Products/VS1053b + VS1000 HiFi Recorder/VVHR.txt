@@ -1,0 +1,39 @@
+Features
+
+·                  Multi-format media player and recorder that uses VS1053b for audio and VS1000 as the controller
+
+·                  Can play back .MP3, .OGG, .AAC, .M4A, .WMA, .FLAC, .WAV, .IMA and .MID
+
+·                  Can record in 16-bit .WAV and multiple variations of the .OGG format
+
+·                  Over 90 dB dynamic range for both playback and recording (A weighted)
+
+·                  Typical current < 50 mA for playback and 85 mA for recording
+
+·                  Plays music from SD/SDHC/MMC cards (over 2 GB cards also supported)
+
+·                  Line Out for playback
+
+·                  Line In / Builtin Stereo Microphones for recording
+
+·                  OLED Display
+
+·                  Full Speed USB
+
+·                  Rechargeable Li-Ion battery charged through USB
+
+·                  Six push-buttons
+
+·                  Uses EarSpeaker auralization for more natural sound when using headphones
+
+·                  Customizable tone controller (bass boost and treble control with adjustable cut-off frequencies)
+
+·                  Full source code for the VS1000 control application will be made available.
+
+Description
+
+The VS1053b + VS1000 HiFi Recorder is a multi-format media player and recorder device that can play almost any audio files and record with several qualities from mono wideband speech at 49 kbit/s to stereo linear HiFi PCM at 1.5 Mbit/s. A clear OLED display offers playback and recording information as well as a menu system.
+
+The idea behind the player is for it to act as a reference design for an "MP3 player" and high quality recording device. To help with customization, the full source code for the VS1000 controller application will be made available for free use to anyone wishing to modify the device.
+
+The Recorder is available at VLSI's Web Store. The software binary is available now and the source code will be made available Q2/2010

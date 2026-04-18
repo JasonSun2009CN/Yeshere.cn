@@ -1,0 +1,69 @@
+Features
+
+·                  Multi-format "MP3" media player that uses a single VS1053b
+
+·                  Very versatile: plays .MP3, .OGG, .AAC, .M4A, .WMA, .WAV, .IMA, .MID and potentially also .FLAC
+
+·                  Excellent sound quality: over 90 dB dynamic range for playback
+
+·                  Plays music from SD/SDHC/MMC cards (over 2 GB cards also supported)
+
+·                  Headphone / Line Out for playback
+
+·                  Built-in mono microphone for voice recording (firmware support not yet available)
+
+·                  OLED Display (can be replaced with compatible LCD or used without display)
+
+·                  High-Speed USB (480 Mbit/s)
+
+·                  Rechargeable Li-Ion battery charged through USB
+
+·                  Eight push-buttons
+
+·                  Low component count
+
+·                  Low BOM
+
+·                  New features can be added by the customer because full source code for the VS1053 player application is available for free!
+
+Description
+
+The VS1053 USB Music Player is a cost-efficient low component count MP3 + WMA + AAC + HEAAC + Ogg Vorbis + Flac + MIDI + WAV music player. It uses a single VS1053 DSP chip for audio decoding and a user interface. Music files are stored either on an SD card or on-board FLASH memory. A high speed USB interface (480 Mbit/s) is provided for file transfers. SDHC cards larger than 2 GB are supported. The USB interface is provided by a generic USB SD card reader IC (many vendors available).
+
+Functionality of the VS1053 USB Hi-Fi player can be customized by reprogramming the boot EEPROM. Application source code is available for customization purposes for free. Software supports OLED, STN LCD and TFT LCD displays.
+
+·                  Read presentation
+
+Version updates
+
+Schematic version 0.5
+
+·                  Power on/off button
+
+·                  Auto power off possible
+
+Schematic version 0.6
+
+·                  On/Off LED
+
+·                  GPIO1 pull-down
+
+Software version 0.1
+
+·                  Smallest code side
+
+·                  Good for developing own software for similar applications
+
+Software version 1.0 (2010-02-12)
+
+·                  Board is shipped with this software
+
+·                  Loudness control
+
+·                  Volume display
+
+·                  Auto power-off
+
+·                  USB activity indicator
+
+·                  Stable release

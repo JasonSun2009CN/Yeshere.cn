@@ -1,0 +1,105 @@
+Introduction
+
+VS1063 is the new flagship of VLSI Solution's MP3 slave processor family. As a first in VLSI's over decade long history of creating innovative audio IC products, VS1063 is as much aimed at encoding as it is at decoding audio.
+
+The VS1063 IC can encode an unforeseen multitude of audio formats, from MP3 and Ogg Vorbis to G.711 u-law, G.711 A-law, G.722 and 16-bit PCM. The proprietary MP3 encoder and Ogg Vorbis encoder have been carefully tuned for highest possible audio fidelity for high-quality audio streaming or recording.
+
+VS1063 can play back MP2, MP3, WMA, OGG, LC-AAC, HE-AAC, FLAC, IMA, G.711 u-law, G.711 a-law, G.722 and WAV PCM formats, making it very suitable for hi-fi audio playback and streaming applications.
+
+VS1063 also offers a full-duplex codec mode with optional Acoustic Echo Cancellation. The codec mode makes is possible to create real-time full duplex audio for voice applications like internet phones and two-way audio radio links.
+
+VS1063 provides many built-in sound effects, including a bass enhancer and treble control, a 5-band equalizer, a speed shifter and VLSI Solution's proprietary EarSpeaker room processing. It is also possible to insert PCM sound effects or audio from a stereo analog input on top of playback audio.
+
+To make VS1063 even more versatile, it has 16 KiB of program RAM for custom applications. Combined with an interface with VLSI Solution's Integrated Development Environment VSIDE, the platform offers almost endless customization options.
+
+Upgraders will be happy to know that from a hardware point of view VS1063 is a drop-in replacement for VS1053.
+
+All these features, combined with CD-quality Analog-to-Digital and Digital-to-Analog signal path performance, make VS1063 an easy-to-use audio codec IC that offers versatility unlike any audio codec IC before it.
+
+Features
+
+·                  Encodes a multitude of audio formats, all at 8-48 kHz, mono and stereo:
+
+·                           MP3: All samplerates and bitrates of MPEG 1.0, 2.0 and 2.5
+
+·                           Ogg Vorbis
+
+·                           16-bit PCM
+
+·                           IMA ADPCM
+
+·                           G.711 u-law and A-law
+
+·                           G.722 ADPCM
+
+·                  Decodes multiple formats upto 48 kHz:
+
+·                           MP3 = MPEG 1 & 2 audio layer III (CBR+VBR+ABR)
+
+·                           MP2 = MPEG 1 & 2 audio layer II optional
+
+·                           Ogg Vorbis
+
+·                           MPEG4 / 2 AAC-LC(+PNS), HE-AAC v2 (Level 3) (SBR + PS)
+
+·                           WMA4.0/4.1/7/8/9 all profiles (5-384 kbps)
+
+·                           FLAC lossless audio (upto 24 bits)
+
+·                           WAV: 16-bit PCM, IMA ADPCM, G.711 u-law and A-law, G.722 ADPCM
+
+·                  A new full-duplex codec mode allows both input and output using many formats:
+
+·                           16-bit PCM
+
+·                           IMA ADPCM
+
+·                           G.711 u-law and A-law
+
+·                           G.722 ADPCM
+
+·                  Streaming support
+
+·                  Upto 96 KiB RAM for user code and data
+
+·                  Unique ID for code protection
+
+·                  I2S interface for external DAC
+
+·                  High-quality stereo A/D converter
+
+·                  Serial control and data interfaces
+
+·                  Can be used either as a slave co-processor or as a standalone processor
+
+·                  UART for debugging purposes
+
+·                  New functions may be added with software and 12 GPIO pins
+
+·                  EarSpeaker Spatial Processing
+
+·                  Bass and treble controls
+
+·                  5-channel equalizer
+
+·                  Low-power operation
+
+·                  High-quality on-chip stereo DAC with no phase error between channels
+
+·                  Zero-cross detection for smooth volume change
+
+·                  Stereo earphone driver capable of driving a 30­-ohm load
+
+·                  Quiet power-on and power-off
+
+·                  Separate voltages for analog, digital, I/O
+
+·                  SPI flash boot for special applications
+
+·                  Hardware drop-in replacement for VS1053 (control software still needs to be modified)
+
+Availability
+
+Engineering samples became available in June 2011.
+
+Fully tested and qualified mass production devices became available October 2011.

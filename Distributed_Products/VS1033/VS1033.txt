@@ -1,0 +1,41 @@
+Features
+
+·                  Decodes MPEG 1 & 2 audio layer III (MP3) (CBR+VBR+ABR); layers I & II (MP1 and MP2) optional; MPEG4 / 2 AAC-LC-2.0.0.0 (+PNS); WMA4.0/4.1/7/8/9 all profiles (5-384 kbps); WAV (PCM + IMA ADPCM); General MIDI / SP-MIDI format 0 files
+
+·                  Encodes IMA ADPCM from microphone or line input
+
+·                  EarSpeaker Spatial Processing
+
+·                  Streaming support
+
+·                  Bass and treble controls
+
+·                  Operates with a single 12 - 13 MHz, or 24 - 26 MHz clock
+
+·                  Internal PLL clock multiplier
+
+·                  Low-power operation
+
+·                  High-quality on-chip stereo DAC with no phase error between channels
+
+·                  Stereo earphone driver capable of driving a 30­ ohm load
+
+·                  Quiet power-on and power-off
+
+·                  I2S interface fir external DAC
+
+·                  Separate operating voltages for analog, digital and I/O
+
+·                  5.5 KiB On-chip RAM for user code / data
+
+·                  Serial control and data interfaces
+
+·                  Can be used as a slave co-processor
+
+·                  SPI flash boot for special applications
+
+·                  UART for debugging purposes
+
+·                  New functions may be added with software and 8 GPIO pins
+
+·                  Not recommended for new projects since 2009, superseded by VS1053

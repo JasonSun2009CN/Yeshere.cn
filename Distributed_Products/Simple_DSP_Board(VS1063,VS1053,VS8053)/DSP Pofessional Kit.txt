@@ -1,0 +1,17 @@
+The VS1063/VS1053/VS8053 Simple DSP Professional Kit is intended for quick prototyping using a PC with a serial port. In additional to the Simple DSP Board it also containts a Host Board the provides additional features like stereo earphone and line outputs, a stereo line input, and a reset button.
+
+The components included in the kit are:
+
+·                  VS1063, VS1053 or VS8053 Simple DSP Board
+
+·                  VSx053 Host Connector Board
+
+·                  RS232 cable
+
+·                  Book: First Steps with VS1053
+
+·                  With VS1063: Leaflet "First Steps with VS1053 - VS1063 Changes"
+
+·                  VSIDE on CD
+
+No additional components are required to start developing applications for the VS1063/VS1053/VS8053.

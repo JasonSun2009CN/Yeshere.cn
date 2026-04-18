@@ -1,0 +1,33 @@
+Features
+
+·                  PC peripheral
+
+·                  Connected to USB - no other cables needed
+
+·                  Five-in-one functionality:
+
+·                           VoIP (Skype etc.) speaker phone with Acoustic Echo Cancellation
+
+·                           Media player
+
+·                           Voice recorder
+
+·                           USB Mass storage device
+
+·                           Sound card
+
+·                  Automatic acoustic echo cancellation
+
+·                  No software drivers needed
+
+·                  8 kHz voice recording to memory card
+
+·                  Supports various media formats: MP3, WMA, Ogg Vorbis, WAV
+
+Description
+
+VoIP Speaker Phone is an example of a product that can be built by using VS1000 and VS1003 devices.
+
+It features multiple functions, good audio quality and low power consumption.
+
+Due to sophisticated built-in acoustic echo cancellation algorithm, it is well suited for applications that require hands-free communication via speaker phone.

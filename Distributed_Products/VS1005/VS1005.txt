@@ -1,0 +1,194 @@
+Introduction
+
+VS1005 is the new flagship and VLSI Solution's first MP3 system-on-a-chip.
+
+The features of VS1005 are particularly suited for portable audio devices, docking stations, and portable recorder applications.
+
+The Hi-speed USB (480 Mbit/s) host function is useful in systems that require audio playback capability from external media such as USB memory sticks or drives, opening up many new applications in AV receivers and radio players. USB slave mode is also supported.
+
+The Ethernet interface provides Internet streaming capability over wired lines. I2S extends digital connectivity with other ICs. The RTC and battery backed registers provide alarm functions as well as very low power - low speed modes for the DSP.
+
+The VS1005 SoC takes a new approach in application development when compared to VLSI's earlier products. The multitasking operating system VSOS and the object code library MegaLib offer services that can be utilized with VLSI Solution's Integrated Development Environment VSIDE. This combination makes writing applications to VS1005's 256 KiB RAM memory a straightforward and intuitive process. To further extend VS1005's usability, code can be loaded dynamically from any non-volatile memory, including VS1005's optional internal 1024 KiB flash memory. The internal flash memory can be protected, making it possible for developers and third parties to protect their code.
+
+The MegaLib library includes all VLSI Solution's existing codecs: MP3 and Ogg Vorbis encoders, MP2, MP3, WMA, OGG, LC-AAC, HC-AAC, FLAC, IMA and WAV PCM decoders, and other functions: FM including RDS, file I/O, device drivers, application loading, multitasking, graphical interface functions, audio processing, etc.
+
+Features
+
+Power
+
+·                  Single power input
+
+·                  Internal voltage regulators
+
+·                  3-input multiplexed SAR for monitoring
+
+·                  Optional battery for RTC and backup registers
+
+Analog Audio
+
+·                  2 x 24-bit / 96kHz DAC
+
+·                  3 x 24-bit / 192kHz ADC
+
+·                  Integrated FM tuner with RDS, Japanese band included (76-108 MHz)
+
+·                  Stereo headphone output
+
+·                  Stereo microphone amplifier
+
+Digital Audio
+
+·                  S/PDIF input and output (+AES/EBU support)
+
+·                  I2S input and output
+
+·                  24-bit sample rate converter
+
+·                  High-speed USB slave or host
+
+·                  Ethernet interface
+
+Memory
+
+·                  NAND flash interface
+
+·                  High speed SD card interface
+
+·                  Optional embedded flash
+
+·                  Internal SRAM (256 KiB) and ROM (256 KiB)
+
+General Purpose I/O
+
+·                  Hi-Speed USB (480 Mbit/s) host / device
+
+·                  Resistive Touch Screen interface
+
+·                  JTAG interface for hardware debug
+
+·                  8-bit bus for LCD
+
+·                  PWM output
+
+·                  UART
+
+·                  2 SPI buses, host and slave mode supported
+
+Other Hardware Features
+
+·                  Operates with a single clock
+
+·                  Optional real-time clock
+
+·                  Embedded flash memory can be copy protected
+
+·                  Power button pin, software-controlled power-off
+
+VSOS Firmware and MegaLib Highlights
+
+·                  Programs are written using VLSI Solution's Integrated Development Environment VSIDE (support for VS1005 will be added in Q2/2012)
+
+·                  Decoders: MP3, WMA, Ogg Vorbis, AAC, HE-AAC, FLAC, WAV PCM
+
+·                  Encoders: MP3, Ogg Vorbis, WAV PCM
+
+·                  DSP audio features: EarSpeaker, Parametric EQ, VU Meter, Mixer, Speed Shifter, Pitch Shifter, etc
+
+·                  File I/O for SD cards and NAND flash.
+
+·                  FM tuner and RDS decoder
+
+·                  USB host and slave libraries
+
+·                  Graphical display with resistive touch speed control
+
+Availability
+
+VS1005 engineering samples are expected to be available in early July 2012, followed by mass production devices in October 2012.
+
+VS1063 / VS1053 / VS8053 Simple DSP Board
+
+VS1053 USB Music Player
+
+Features
+
+·                  VS1063, VS1053 or VS8053 DSP processor
+
+·                  MP3, WMA, AAC, HE-AAC, OGG, WAV, MIDI decoding (with VS1053 processor)
+
+·                  MP3, WMA, AAC, HE-AAC, OGG, WAV, FLAC decoding (with VS1063 processor)
+
+·                  OGG, WAV, MIDI decoding (with VS8053 processor)
+
+·                  PCM, IMA ADPCM encoding (with VS1053 and VS8053 processors)
+
+·                  PCM, IMA APDCM, G.711 ulaw/A-law, G.722 ADPCM, Ogg Vorbis, MP3 encoding (with VS1063 processor)
+
+·                  AT25DF041A or equivalent 4 megabit SPI boot flash
+
+·                  Single 5V input, LDO linear regulators for CVDD, AVDD and IOVDD.
+
+·                  1 push-button and 4 LEDs for user interface
+
+·                  26-pin header for signals, including stereo line in, line out and headphone out
+
+·                  UART connections for debug interface, SPI control/data bus for microcontroller
+
+·                  Easily integrated to custom PCB for rapid application development
+
+·                  Hi-Fi quality audio performance
+
+·                  Supported by VSIDE development tools
+
+Description
+
+The VS1063 / VS1053 / VS8053 Simple DSP Board is a small, low-cost and high performance audio DSP board for the VS1063, VS1053 or VS8053 Audio Codec IC.
+
+The VSx053 Simple DSP Board is meant to be used in DSP software developement and as a "plug-in" module in electronic applications. The board has two rows of pin headers, one on each edge of the board. One edge has digital connections for connecting to a serial port or to an SPI port. This can be used to interface the board with a PC and VSIDE or a host microcontroller. The other edge has analog connections featuring Line In, Line Out and Headphone Out. Line In and Line Out are AC-coupled and can be connected directly to other audio circuits.
+
+The board has necessary power supplies for the VSx053. It also has four LEDs, and a button for UI. A boot EEPROM is included so that application software and also sound samples can be stored on the board.
+
+The board can be used with the VSx053 Simple DSP Host board for easy
+connectivity to the outside world.
+
+VS1063 / VS1053 / VS8053 Simple DSP Starter Kit
+
+
+
+The VS1063/VS1053/VS8053 Simple DSP Starter Kit is intended for quick prototyping using a PC with a USB port.
+
+The components included in the kit are:
+
+·                  VS1063, VS1053 or VS8053 Simple DSP Board
+
+·                  VSIDE USB UART cable
+
+·                  Book: First Steps with VS1053
+
+·                  With VS1063: Leaflet "First Steps with VS1053 - VS1063 Changes"
+
+·                  VSIDE on CD
+
+No additional components are required to start developing applications for the VS1063/VS1053/VS8053.
+
+VS1063 / VS1053 / VS8053 Simple DSP Professional Kit
+
+
+
+The VS1063/VS1053/VS8053 Simple DSP Professional Kit is intended for quick prototyping using a PC with a serial port. In additional to the Simple DSP Board it also containts a Host Board the provides additional features like stereo earphone and line outputs, a stereo line input, and a reset button.
+
+The components included in the kit are:
+
+·                  VS1063, VS1053 or VS8053 Simple DSP Board
+
+·                  VSx053 Host Connector Board
+
+·                  RS232 cable
+
+·                  Book: First Steps with VS1053
+
+·                  With VS1063: Leaflet "First Steps with VS1053 - VS1063 Changes"
+
+·                  VSIDE on CD
+
+No additional components are required to start developing applications for the VS1063/VS1053/VS8053.

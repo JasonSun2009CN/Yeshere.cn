@@ -1,0 +1,37 @@
+Features
+
+·                  Prototyping board for VS10xx in LQFP package
+
+·                  Uses VS1103, VS1011, VS1002, VS1003, VS1033, VS1053, or VS1063 device
+
+·                  SPI Boot EEPROM in DIP package
+
+·                  Preprogrammed with standalone player boot code
+
+·                  Pin header for interface signals
+
+·                  Single-Cell Switching Power Supply
+
+·                  Clock and Reset circuits
+
+·                  Headphone interface
+
+·                  Microphone
+
+·                  SD Connector and Card
+
+·                  3 Push-buttons
+
+·                  Prototyping area e.g. for a 20-pin microcontroller
+
+·                  Battery
+
+Description
+
+VS10xx Prototyping Board provides an easy platform for getting started with VS1103 / VS1011 / VS1002 / VS1003 / VS1033 / VS1053 / VS1063 devices. It incorporates a single cell switching power supply, VS10xx device in LQFP package, clock, reset, headphone and microphone circuitry. It also has a SD card connector with all SD power supply signals readily connected.
+
+The board has a small prototyping area for user-specific components. A 40-pin header provides the necessary power and data signals for interfacing with user's own microcontroller boards.
+
+The board is delivered with a preprogrammed boot EEPROM that implements a very simple standalone audio player. Supported formats depend on the chip. VS1103 plays WAV and MIDI. VS1011 and VS1002 play MP3 and WAV. VS1003 adds WMA and MIDI. VS1033 adds AAC. VS1053 and VS1063 add HE-AACv2, Ogg Vorbis, and FLAC. The music files are stored in the MultiMedia (MMC) or SecureDigital (SD) card.
+
+VS1053 and VS1063 also provide recording feature. VS1053 recorder saves only linear PCM or IMA ADPCM files, but VS1063 can encode in many other formats as well, including MP3 and Ogg Vorbis

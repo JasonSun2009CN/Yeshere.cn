@@ -1,0 +1,67 @@
+Introduction
+
+VS1053 is a versatile "MP3 decoder chip" belonging to VLSI Solution's extensive slave audio processor family. In addition to being able to decode all the most common audio formats - including the advanced features of newer AAC files - functionality of this IC can be greatly expanded just by loading a bit of extra software to its RAM memory. In addition to being able to decode all major audio formats, VS1053 is capable of recording in three different audio formats, from lossless 16-bit PCM to highly compressed, yet high-quality Ogg Vorbis files. For the best headphone listening experience the VS1053 includes EarSpeaker spatial processing which accurately simulates how a room with stereo loudspeakers would sound. This option can naturally be turned off when required. All in all, VS1053 is an easy-to-use, powerful workhorse for audio playback and recording applications.
+
+Features
+
+·                  Decodes multiple formats
+
+·                           Ogg Vorbis
+
+·                           MP3 = MPEG 1 & 2 audio layer III (CBR+VBR+ABR)
+
+·                           MP1 & MP2 = MPEG 1 & 2 audio layers I & II optional
+
+·                           MPEG4 / 2 AAC-LC(+PNS), HE-AAC v2 (Level 3) (SBR + PS)
+
+·                           WMA4.0/4.1/7/8/9 all profiles (5-384 kbps)
+
+·                           FLAC lossless audio with software plugin (upto 24 bits, 48 kHz)
+
+·                           WAV (PCM + IMA ADPCM)
+
+·                           General MIDI 1 / SP-MIDI format 0
+
+·                  Encodes three different formats from mic/line in mono or stereo
+
+·                           Ogg Vorbis with software plugin
+
+·                           IMA ADPCM
+
+·                           16-bit PCM
+
+·                  Streaming support
+
+·                  EarSpeaker Spatial Processing
+
+·                  Bass and treble controls
+
+·                  Operates with a single 12-13 MHz or 24-26 MHz clock
+
+·                  Internal PLL clock multiplier
+
+·                  Low-power operation
+
+·                  High-quality on-chip stereo DAC with no phase error between channels
+
+·                  Zero-cross detection for smooth volume change
+
+·                  Stereo earphone driver capable of driving a 30­ ohm load
+
+·                  Quiet power-on and power-off
+
+·                  I2S interface for external DAC
+
+·                  Separate voltages for analog, digital, I/O
+
+·                  16.5 KiB on-chip RAM for user code and data
+
+·                  Serial control and data interfaces
+
+·                  Can be used as a slave co-processor
+
+·                  SPI flash boot for special applications
+
+·                  UART for debugging purposes
+
+·                  New functions may be added with software and up to 8 GPIO pins

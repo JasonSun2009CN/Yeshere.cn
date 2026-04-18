@@ -1,0 +1,19 @@
+Features
+
+·                  General midi I / SP midi synthesizer
+
+·                  Takes midi stream from standard midi connector
+
+·                  Reverb processing
+
+·                  Uses VS10XX Proto Board with added board for Midi connector
+
+Description
+
+VS1103 Karaoke kit is complete example of portable karaoke player. It can play WAV and MIDI files and mix the decoded output to microphone signal.
+
+The mixed signal is available at the analog output that can be connected to headphones or amplifier.
+
+The output signal of the mixer can also be recorded as WAV file.
+
+The KIT comes with microphone and two SD cards, one as source of the WAV or MIDI input, the other as target of the recorded output.

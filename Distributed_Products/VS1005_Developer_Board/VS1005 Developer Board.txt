@@ -1,0 +1,17 @@
+Features
+
+·                    Supports VS1005, VS1205 or VS8205 devices
+
+·                    Open source VSOS kernel and device drivers
+
+·                    Supported by VSIDE development tools
+
+Description
+
+VS1005 Developer Board is an application development board for VS1005. It features all necessary hardware for writing and testing software on VS1005.
+
+The board has connectors for headphone, line-in, line out, optical S/PDIF in, optical S/PDIF out, USB and UART. The board also features a matrix display and connectors for helping evaluation measurements and interfacing to other boards.
+
+The board is powered from the USB bus. A switch is used to attach and detach the USB data lines. Serial port is initially used as a debugger interface and for loading code to VS1005. In the future debug interface can also be used enabling hardware debugging like single step execution of the program.
+
+The Developer Board has six buttons. They are user assignable.

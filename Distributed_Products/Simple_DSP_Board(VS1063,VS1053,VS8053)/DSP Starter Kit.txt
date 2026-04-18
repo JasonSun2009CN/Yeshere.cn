@@ -1,0 +1,15 @@
+The VS1063/VS1053/VS8053 Simple DSP Starter Kit is intended for quick prototyping using a PC with a USB port.
+
+The components included in the kit are:
+
+·                  VS1063, VS1053 or VS8053 Simple DSP Board
+
+·                  VSIDE USB UART cable
+
+·                  Book: First Steps with VS1053
+
+·                  With VS1063: Leaflet "First Steps with VS1053 - VS1063 Changes"
+
+·                  VSIDE on CD
+
+No additional components are required to start developing applications for the VS1063/VS1053/VS8053.

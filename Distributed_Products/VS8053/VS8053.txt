@@ -1,0 +1,61 @@
+Introduction
+
+VS8053 is a laser fused version of the VS1053 device. The laser fusing disables codecs that require commercial license. This makes the device perfect for applications that can use high quality license free codecs such as Ogg Vorbis. In addition, due to the large amount of user programmable RAM and data RAM and high performance stereo ADC and DAC, the devices can be tailored for various DSP applications. Such are for instance audio effect processing, equalization, echo cancellation and adaptive noise reduction. Since the device supports true slave operation and digital sample rate conversion it is a good candidate for various audio accessories such as Ipod docking stations.
+
+Features
+
+·                  Decodes multiple formats
+
+·                           Ogg Vorbis
+
+·                           FLAC lossless audio with software plugin (upto 24 bits, 48 kHz)
+
+·                           WAV (PCM + IMA ADPCM)
+
+·                  Encodes three different formats from mic/line in mono or stereo
+
+·                           Ogg Vorbis with software plugin
+
+·                           IMA ADPCM
+
+·                           16-bit PCM
+
+·                  Pin-compatible with VS1053
+
+·                  Applications and plugins are compatible with VS1053 except for licensed codecs
+
+·                  Streaming support
+
+·                  EarSpeaker Spatial Processing
+
+·                  Bass and treble controls
+
+·                  Operates with a single 12-13 MHz or 24-26 MHz clock
+
+·                  Internal PLL clock multiplier
+
+·                  Low-power operation
+
+·                  High-quality on-chip stereo DAC with no phase error between channels
+
+·                  Zero-cross detection for smooth volume change
+
+·                  Stereo earphone driver capable of driving a 30­ ohm load
+
+·                  Quiet power-on and power-off
+
+·                  I2S interface for external DAC
+
+·                  Separate voltages for analog, digital, I/O
+
+·                  16.5 KiB on-chip RAM for user code and data
+
+·                  Serial control and data interfaces
+
+·                  Can be used as a slave co-processor
+
+·                  SPI flash boot for special applications
+
+·                  UART for debugging purposes
+
+·                  New functions may be added with software and up to 8 GPIO pins

@@ -1,0 +1,19 @@
+Features
+
+·                  General midi I / SP midi synthesizer
+
+·                  Takes midi stream from standard midi connector
+
+·                  Reverb processing
+
+·                  Uses VS10XX Proto Board with added board for Midi connector
+
+Description
+
+The VS1103 Prototyping Board demonstrates VS1103 as MIDI synthesizer. The board has standard MIDI connector. Midi keyboards or pianos can produce valid midi source just by connecting the cable.
+
+The VS1103 Prototyping Board uses standard VS10XX Prototyping Board as mother board and midi connector has been added with small extra PCB (see small PCB on the right of the photo on the left)
+
+The VS1103 Prototyping Board can be used to develop other similar applications since it has most of the on-board signals available in 40-pin connector.
+
+SD (or MMC) card is not included even though it is seen in the photo.

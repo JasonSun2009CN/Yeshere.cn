@@ -1,0 +1,19 @@
+Features
+
+·                  Eliminates unwanted acoustic feedback from microphone to speaker
+
+·                  Microphone signal goes through a compressor making it less sensitive to mouth position with respect microphone
+
+·                  Novel mute switch makes the system quiet when signal level is very weak.
+
+·                  VS1103 includes microphone amplifier and a 30-ohm output driver.
+
+·                  The system can be customized by changing the VS1103 boot code.
+
+Description
+
+A special kind of feedback occurs when a sound loop exists between an audio input and output. For example the signal received by the microphone is amplified and passed to the loudspeaker. The sound from the loudspeaker is then received by the microphone again, further amplified, and passed out through the loudspeaker again. This kind of positive feedback results in an annoying high-pitched squealing noise.
+
+VS1103 Acoustic Feedback Eliminator Application minimizes the acoustic feedback from a loudspeaker to a microphone by using VS1103 device. The unwanted signal is detected by a real-time DFT algorithm that controls an adaptive filter. This will dampen the oscillation by dynamically reducing the gain of affected frequencies.
+
+The system has two other inventions for additional comfort. The compressor algorithm makes the microphone signal level insensitive to the mouth and the microphone distance. Noise gate mutes the signal output when microphone is not used.

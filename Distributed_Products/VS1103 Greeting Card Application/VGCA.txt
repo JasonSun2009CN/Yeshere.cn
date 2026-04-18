@@ -1,0 +1,15 @@
+Features
+
+·                  Recording of high quality greetings
+
+·                  Re-recording as many times as needed
+
+·                  Recording by using preprogrammed MIDI melodies for background
+
+·                  Talking card automatically plays the message as long as activated (cover opened or button pressed)
+
+·                  Less than credit card size
+
+Description
+
+VS1103 Greeting Card application demonstrates the use of  VS1103 for recording and playing short audio messages by using low cost SPI serial Flash. The example features good audio quality, customizable firmware, background music for recording and low cost in less size than credit card.

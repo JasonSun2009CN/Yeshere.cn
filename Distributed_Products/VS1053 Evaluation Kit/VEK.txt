@@ -1,0 +1,25 @@
+Features
+
+·                  Supports VS1053 in LQFP48
+
+·                  MP3//WMA/AAC/eAAC+/Ogg Vorbis/WAV playback from MMC/SD
+
+·                  Ogg Vorbis HiFi quality stereo recording from Line Input
+
+·                  Supports FAT-16 and FAT-32
+
+·                  Uses 8051 family host for user interface (AT89C51R02)
+
+·                  One multifunction key for song/volume/bass control
+
+·                  Two LEDs and display for output
+
+·                  Software of 8051 can be modified via UART
+
+Description
+
+VS1053 Evaluation Kit is a simple player that uses 8051 based microcontroller to access data from/to SD/MMC card via SPI interface. This Kit is similar to VS10XX Kit except that it supports HiFi quality Ogg Vorbis stereo recording to memory card. Also some cleanup of the schematic has been done.
+
+All c-source code of 8051 is available on request. Software can be modified via UART by using free software, please see http://sdcc.sourceforge.net for details.
+
+The Evaluation Kit is available for test and development purposes. The information included in the delivery packge can be used free of charge for any system that uses VS1011, VS1002, VS1003, VS1033 or VS1053 device.

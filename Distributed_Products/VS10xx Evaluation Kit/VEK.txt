@@ -1,0 +1,27 @@
+Features
+
+·                  Supports VS1011, VS1003 and VS1033 in LQFP48
+
+·                  MP3/MP3+V/Wav playback from MMC/SD
+
+·                  WMA and SP-midi playback when using VS1003 and VS1033
+
+·                  LC-AAC playback when using VS1033
+
+·                  MMC can use FAT-16 and FAT-32
+
+·                  Uses 8051 family host for user interface (AT89C51R02)
+
+·                  One multifunction key for song/volume/bass control
+
+·                  Two LEDs and display for output
+
+·                  Software of 8051 can be modified via UART
+
+·                  Record plugin available for VS1003 and VS1033
+
+Description
+
+VS1011/VS1003/VS1033 Evaluation Kit provides easy access for evaluation of VS10XX family by using a SD card. The files on SD card are accessed by 8051 based microcontroller which transmits the data to VS10xx via SPI interface. VS10xx decodes the received data, converts it to analog format and drives the headphones. User interface is implemented by using the industry standard 8051 microcontroller. All c-source code of 8051 is available on request. Software can be modified via UART by using free software, please see http://sdcc.sourceforge.net for details.
+
+The Evaluation Kit is available for test and development purposes. The information included in the delivery packge can be used free of charge for any system that uses VS1011, VS1003 or VS1033 device.
