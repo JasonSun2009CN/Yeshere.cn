@@ -34,18 +34,46 @@ folders.forEach(folder => {
         
         // Try to find a matching image for this section
         const keywords = title.toLowerCase().split(' ').filter(k => k.length > 2);
-        const sectionImage = images.find(img => {
+        
+        let bestImage = null;
+        let maxMatches = 0;
+
+        images.forEach(img => {
             const imgLower = img.toLowerCase();
-            // Lenient matching: check if most keywords match, or handle common typos
-            const matches = keywords.filter(k => imgLower.includes(k) || (k === 'pofessional' && imgLower.includes('professional')));
-            return matches.length >= Math.min(keywords.length, 2) && !imgLower.includes('main');
+            if (imgLower.includes('main')) return;
+
+            let matches = 0;
+            keywords.forEach(k => {
+                if (imgLower.includes(k)) matches++;
+                // Handle specific typos or variants
+                else if (k === 'pofessional' && imgLower.includes('professional')) matches++;
+            });
+
+            if (matches > maxMatches) {
+                maxMatches = matches;
+                bestImage = img;
+            } else if (matches === maxMatches && matches > 0) {
+                // If same number of matches, prefer the one with more similar length or other heuristic
+                if (!bestImage || Math.abs(img.length - title.length) < Math.abs(bestImage.length - title.length)) {
+                    bestImage = img;
+                }
+            }
         });
 
-        sections.push({
-            title: title,
-            content: content,
-            image: sectionImage || null
-        });
+        // Require at least 2 matches for a multi-word title, or 1 for single-word
+        if (maxMatches >= Math.min(keywords.length, 2) && maxMatches > 0) {
+            sections.push({
+                title: title,
+                content: content,
+                image: bestImage
+            });
+        } else {
+            sections.push({
+                title: title,
+                content: content,
+                image: null
+            });
+        }
     });
 
     // If no sections were created but images exist, create a default section with the first image
