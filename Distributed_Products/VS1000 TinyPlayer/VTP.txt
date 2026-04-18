@@ -1,0 +1,53 @@
+Features
+Three-in-one functionality
+1) Low cost USB memory stick
+
+·                  supports SPI Serial Flash from 8 kbytes to 16 Mbytes
+
+·                  supports standard USB Mass Storage Device *
+
+·                  no driver required
+
+2) Standard USB Audio Device
+
+·                  USB stereo headphones
+
+·                  no driver required
+
+3) Ogg Vorbis audio player
+
+Description
+VS1000 TinyPlayer is an example of a very simple USB audio device that supports standard USB Mass Storage, USB Audio Device and simple Audio Player.
+
+The system has just two active components on top of VS1000 device: low cost serial Flash and 12 MHz crystal. The TinyPlayer has standard USB "A" plug and 3.5 mm standard stereo audio connector.
+
+The source code of the interface code is available on request.
+
+Applications
+Can be embeded in a product to support
+
+·                    plug-and-play drivers
+
+·                    manuals
+
+·                    audio
+
+ Sales of audio content
+
+·                    new records
+
+·                    tourist guide
+
+·                    interactive toy
+
+·                    miniature music player
+
+ Other
+
+·                    Configuration data storage
+
+·                    USB Headphones
+
+·                    USB Desktop Speakers
+
+·                    VOIP Phones

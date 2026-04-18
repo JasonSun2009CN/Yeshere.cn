@@ -1,0 +1,27 @@
+Features
+
+·                  Complete simple Ogg Vorbis player that uses VS1000
+
+·                  Full Speed USB
+
+·                  File system visible when connected to PC via USB
+
+·                  EarSpeaker Spatial Sound Processing
+
+·                  Single AAA Cell Switching Power Supply
+
+·                  Clock and Reset circuits
+
+·                  Headphone interface
+
+·                  Five push-buttons
+
+·                  16 megabytes or larger Nand Flash storage
+
+Description
+
+VS1000 Demonstration Board provides an example of a minimalist high quality low power audio decoder. It incorporates a single cell switching power supply, VS1000 chip in LQFP package and parallel Flash circuitry. It has 3.5 mm standard audio connector for stereo headphones.
+
+The board is ready to plug into USB of PC without additional drivers. PC recognizes the device as Removable Disk via USB Mass Storage Device protocol when connected to USB. Flash memory is totally under control of the PC when connected to USB excluding that blocks are remapped for maximum life time of the Flash. Device is ready to start playing Ogg Vorbis files when disconnected from the USB.
+
+The Demonstration Board has five buttons to control pause/play, volume, next/prev, rewind/forward, random play and Earspeaker Spatial Processing

@@ -1,0 +1,19 @@
+Features
+
+·                  Ogg Vorbis format for best quality and low bitrates
+
+·                  4MByte SPI FLASH for boot code and audio content
+
+·                  Single CR2032 battery
+
+·                  Continuous playing time 4 hours
+
+·                  Total playing time over 6 hours
+
+·                  Low-power pause with automatic power off
+
+Description
+
+VS1000 Button Cell player application is an example of a very low power audio player. It features Ogg Vorbis decoding with very low bit rates, credit card size and total BOM less than 3 USD in mass production.
+
+VS1000 Button Cell player is an ideal choice for audio guides that are bundled with an entrance ticket. It provides 4 hours of continuous play time by using a single CR2032 button cell and standard 30-Ohm headphones. The content duration can be up to one hour by using 4 MByte SPI Flash.

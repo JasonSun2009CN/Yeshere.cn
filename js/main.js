@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+window.initReveal = () => {
     // Scroll Reveal Animation
     const observerOptions = {
         threshold: 0.1
@@ -18,4 +18,8 @@ document.addEventListener('DOMContentLoaded', () => {
         el.style.opacity = '0';
         observer.observe(el);
     });
+};
+
+document.addEventListener('DOMContentLoaded', () => {
+    window.initReveal();
 });

@@ -1,0 +1,41 @@
+Features
+
+·                  Complete simple Ogg Vorbis player that uses VS1000
+
+·                  Full Speed USB
+
+·                  Powered from USB bus
+
+·                  USB attach/detach switch
+
+·                  USB cable included
+
+·                  Clock and Reset circuits
+
+·                  Headphone interface
+
+·                  Six push-buttons and reset button
+
+·                  16 megabytes or larger Nand Flash storage
+
+·                  OLED display
+
+·                  Serial port for debugger interface
+
+·                  Proto area
+
+·                  Pinheader for intrerfacing other cards
+
+·                  Two LED's
+
+·                  DIP8 socket for SPI EEPROM
+
+Description
+
+VS1000 Developer Board is an application development board for VS1000. It features all necessary hardware for writing and testing new software for VS1000.
+
+The board has headphone, USB and serial port connectors. The board also features an OLED display, a prototyping area and a connector for measurements and interfacing to other boards.
+
+The board is powered from the USB bus. A switch is used to attach and detach the USB data lines. Serial port is as a debugger interface and for loading code to VS1000. The serial port can also be used in the application and for loading code to the NAND Flash or the SPI EEPROM.
+
+The Demonstration Board has six buttons to control pause/play, volume, next/prev, rewind/forward, random play and Earspeaker Spatial Processing. Buttons are user assignable.

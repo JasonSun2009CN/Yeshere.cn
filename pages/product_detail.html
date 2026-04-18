@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>产品详情 - 源合汇通</title>
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/products.css">
+    <style>
+        .detail-container {
+            max-width: var(--max-width);
+            margin: var(--spacing-xl) auto;
+            padding: 0 var(--spacing-md);
+            display: grid;
+            grid-template-columns: 450px 1fr;
+            gap: var(--spacing-xl);
+            align-items: start;
+        }
+
+        .detail-gallery {
+            position: sticky;
+            top: calc(var(--nav-height) + var(--spacing-md));
+        }
+
+        .main-image {
+            width: 100%;
+            aspect-ratio: 1;
+            border-radius: 28px;
+            background: #fbfbfd;
+            padding: var(--spacing-lg);
+            border: 1px solid rgba(0,0,0,0.05);
+            margin-bottom: var(--spacing-md);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .main-image img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+
+        .thumbnail-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: var(--spacing-sm);
+        }
+
+        .thumbnail {
+            aspect-ratio: 1;
+            border-radius: 12px;
+            overflow: hidden;
+            cursor: pointer;
+            border: 2px solid transparent;
+            background: #fbfbfd;
+            padding: 4px;
+            transition: all 0.2s;
+        }
+
+        .thumbnail:hover {
+            border-color: rgba(0, 113, 227, 0.3);
+        }
+
+        .thumbnail.active {
+            border-color: var(--color-accent);
+        }
+
+        .thumbnail img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .detail-info {
+            max-width: 700px; /* Limit text width for better readability */
+        }
+
+        .info-header {
+            margin-bottom: var(--spacing-lg);
+        }
+
+        .detail-info h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: var(--spacing-sm);
+            letter-spacing: -0.02em;
+        }
+
+        .package-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: var(--spacing-md);
+        }
+
+        .package-tag {
+            background: #f5f5f7;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            color: var(--color-text-secondary);
+            font-weight: 600;
+            letter-spacing: 0.02em;
+        }
+
+        .info-section {
+            margin-bottom: var(--spacing-xl);
+        }
+
+        .info-section h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: var(--spacing-md);
+            border-bottom: 1px solid #f5f5f7;
+            padding-bottom: 8px;
+        }
+
+        .section-content p {
+            font-size: 1.05rem;
+            line-height: 1.6;
+            color: #424245;
+            margin-bottom: var(--spacing-md);
+        }
+
+        .section-image {
+            margin: var(--spacing-md) 0;
+            border-radius: 20px;
+            overflow: hidden;
+            background: #fbfbfd;
+            border: 1px solid rgba(0,0,0,0.05);
+            padding: var(--spacing-md);
+        }
+
+        .section-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .action-buttons {
+            margin-top: var(--spacing-xl);
+            padding-top: var(--spacing-lg);
+            border-top: 1px solid #f5f5f7;
+        }
+
+        .btn-primary {
+            background: var(--color-accent);
+            color: #fff;
+            padding: 14px 32px;
+            border-radius: 28px;
+            font-weight: 600;
+            font-size: 1rem;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 4px 12px rgba(0, 113, 227, 0.2);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0, 113, 227, 0.3);
+            opacity: 0.95;
+        }
+
+        @media (max-width: 1100px) {
+            .detail-container {
+                grid-template-columns: 400px 1fr;
+            }
+        }
+
+        @media (max-width: 992px) {
+            .detail-container {
+                grid-template-columns: 1fr;
+                max-width: 800px;
+            }
+            .detail-gallery {
+                position: static;
+                margin-bottom: var(--spacing-lg);
+            }
+            .detail-info {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="global-nav">
+        <div class="nav-content">
+            <a href="../index.html" class="nav-logo">
+                <img src="../yeshere_icon.png" alt="YesHere Logo">
+                <span>源合汇通</span>
+            </a>
+            <div class="nav-links">
+                <a href="../index.html#about">关于我们</a>
+                <a href="authorized_products.html">代理产品</a>
+                <a href="distributed_products.html">分销产品</a>
+                <a href="../index.html#vlsi">VLSI 代理</a>
+                <a href="../index.html#contact">联系我们</a>
+            </div>
+        </div>
+    </nav>
+
+    <main style="padding-top: var(--nav-height);">
+        <div class="detail-container" id="detailContent">
+            <!-- Content will be injected by JS -->
+        </div>
+    </main>
+
+    <footer class="global-footer">
+        <div class="footer-content">
+            <div class="footer-bottom">
+                <p>© 2026 深圳市源合汇通科技有限公司. 版权所有.</p>
+                <div class="footer-legal">
+                    <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备17047300号</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/products_data.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const urlParams = new URLSearchParams(window.location.search);
+            const productId = urlParams.get('id');
+            const product = productsData.find(p => p.id === productId);
+
+            if (!product) {
+                document.getElementById('detailContent').innerHTML = '<h2>未找到该产品</h2>';
+                return;
+            }
+
+            const folderPath = `../Distributed_Products/${product.folder}/`;
+            
+            let packageHtml = '';
+            if (product.packages && product.packages.length > 0) {
+                packageHtml = `<div class="package-info">
+                    ${product.packages.map(p => `<span class="package-tag">封装: ${p}</span>`).join('')}
+                </div>`;
+            }
+
+            let docButton = '';
+            if (product.document) {
+                docButton = `<a href="../documents/${product.document}" target="_blank" class="btn-primary">一键打开数据手册 (PDF)</a>`;
+            }
+
+            const html = `
+                <div class="detail-gallery reveal">
+                    <div class="main-image" id="mainImageContainer">
+                        <img src="${folderPath}${product.images[0]}" id="currentImage">
+                    </div>
+                    <div class="thumbnail-grid">
+                        ${product.images.map((img, idx) => `
+                            <div class="thumbnail ${idx === 0 ? 'active' : ''}" onclick="switchImage('${folderPath}${img}', this)">
+                                <img src="${folderPath}${img}">
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+                <div class="detail-info reveal">
+                    <div class="info-header">
+                        <h1>${product.name}</h1>
+                        ${packageHtml}
+                    </div>
+                    
+                    <div class="description-sections">
+                        ${product.sections && product.sections.length > 0 ? 
+                            product.sections.map(section => `
+                                <div class="info-section">
+                                    ${section.title !== product.name ? `<h2>${section.title}</h2>` : ''}
+                                    <div class="section-content">
+                                        <p>${section.content.replace(/\n/g, '<br>')}</p>
+                                        ${section.image ? `
+                                            <div class="section-image">
+                                                <img src="${folderPath}${section.image}" alt="${section.title}">
+                                            </div>
+                                        ` : ''}
+                                    </div>
+                                </div>
+                            `).join('') : 
+                            '<p>暂无详细描述。</p>'
+                        }
+                    </div>
+
+                    <div class="action-buttons">
+                        ${docButton}
+                    </div>
+                </div>
+            `;
+
+            document.getElementById('detailContent').innerHTML = html;
+        });
+
+        function switchImage(src, thumb) {
+            document.getElementById('currentImage').src = src;
+            document.querySelectorAll('.thumbnail').forEach(t => t.classList.remove('active'));
+            thumb.classList.add('active');
+        }
+    </script>
+    <script src="../js/main.js"></script>
+</body>
+</html>

@@ -93,6 +93,18 @@
 .product-description {
     color: var(--color-text-secondary);
     font-size: 0.95rem;
+    margin-bottom: 8px;
+}
+
+.package-tag {
+    background: #f5f5f7;
+    padding: 2px 10px;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    color: var(--color-text-secondary);
+    font-weight: 500;
+    margin-right: 6px;
+    display: inline-block;
 }
 
 .no-results {

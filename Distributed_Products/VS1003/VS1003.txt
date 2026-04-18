@@ -1,0 +1,40 @@
+Introduction
+
+VS1003 is a versatile slave MP3 and WMA decoder chip, replacing the discontinued VS1002. It can record wideband speech quality audio and play MIDI either from files or using a standard serial MIDI keyboard with the Real-Time MIDI Input Application. Many wide-ranging applications have been developed for this IC that has sold more than 5 million units.
+
+Features
+
+·                  Decodes MP3 (MPEG 1 & 2 audio layer III) (CBR +VBR +ABR);
+WMA 4.0/4.1/7/8/9 all profiles (5-384kbit/s);
+WAV (PCM + IMA ADPCM);
+General MIDI / SP-MIDI files
+
+·                  Encodes IMA ADPCM from microphone or line input
+
+·                  Streaming support
+
+·                  Bass and treble controls
+
+·                  Operates with a single 12 - 13 MHz clock
+
+·                  Internal PLL clock multiplier
+
+·                  Low-power operation
+
+·                  High-quality on-chip stereo DAC with no phase error between channels
+
+·                  Stereo earphone driver capable of driving a 30­ ohm load
+
+·                  Separate operating voltages for analog, digital and I/O
+
+·                  5.5 KiB On-chip RAM for user code / data
+
+·                  Serial control and data interfaces
+
+·                  Can be used as a slave co-processor
+
+·                  SPI flash boot for special applications
+
+·                  UART for debugging purposes
+
+·                  New functions may be added with software and 4 GPIO pins

@@ -46,86 +46,7 @@
         <!-- Product List -->
         <section class="product-list-container">
             <div id="productList">
-                <!-- Product Items -->
-                <div class="product-list-item reveal" data-name="VS1063 Simple DSP Board">
-                    <div class="product-image-wrapper">
-                        <img src="../Distributed_Products/Simple_DSP_Board(VS1063,VS1053,VS8053).png" alt="VS1063 Simple DSP Board">
-                    </div>
-                    <div class="product-info">
-                        <h3 class="product-name">Simple DSP Board (VS1063, VS1053, VS8053)</h3>
-                        <p class="product-description">多功能 DSP 开发板，支持多种 VLSI 音频编解码芯片，适用于快速原型开发。</p>
-                    </div>
-                </div>
-
-                <div class="product-list-item reveal" data-name="VS1053b USB Hi-Fi Player">
-                    <div class="product-image-wrapper">
-                        <img src="../Distributed_Products/VS1053b_USB_Hi-Fi_Player.png" alt="VS1053b USB Hi-Fi Player">
-                    </div>
-                    <div class="product-info">
-                        <h3 class="product-name">VS1053b USB Hi-Fi Player</h3>
-                        <p class="product-description">基于 VS1053b 的高保真 USB 音频播放器方案，支持多种音频格式硬件解码。</p>
-                    </div>
-                </div>
-
-                <div class="product-list-item reveal" data-name="VS1003">
-                    <div class="product-image-wrapper">
-                        <img src="../Distributed_Products/vs1003.png" alt="VS1003">
-                    </div>
-                    <div class="product-info">
-                        <h3 class="product-name">VS1003 音频编解码芯片</h3>
-                        <p class="product-description">经典 MP3/WMA/MIDI 音频解码芯片，内置 DAC 和耳机驱动。</p>
-                    </div>
-                </div>
-
-                <div class="product-list-item reveal" data-name="VS1003 SD card mini player">
-                    <div class="product-image-wrapper">
-                        <img src="../Distributed_Products/vs1003_SD_card_mini_player.png" alt="VS1003 SD card mini player">
-                    </div>
-                    <div class="product-info">
-                        <h3 class="product-name">VS1003 SD Card Mini Player</h3>
-                        <p class="product-description">紧凑型 SD 卡播放器方案，采用 VS1003 芯片，集成度高。</p>
-                    </div>
-                </div>
-
-                <div class="product-list-item reveal" data-name="VS1005 Production Board">
-                    <div class="product-image-wrapper">
-                        <img src="../Distributed_Products/vs1005_production_board.png" alt="VS1005 Production Board">
-                    </div>
-                    <div class="product-info">
-                        <h3 class="product-name">VS1005 Production Board</h3>
-                        <p class="product-description">针对 VS1005 芯片设计的生产级开发板，具备丰富的接口和扩展能力。</p>
-                    </div>
-                </div>
-
-                <div class="product-list-item reveal" data-name="VS1005 旗舰新品">
-                    <div class="product-image-wrapper">
-                        <img src="../Distributed_Products/vs1005（旗舰新品）.png" alt="VS1005 旗舰新品">
-                    </div>
-                    <div class="product-info">
-                        <h3 class="product-name">VS1005（旗舰新品）</h3>
-                        <p class="product-description">VLSI 旗舰级 SoC 音频处理芯片，支持高采样率、多通道音频处理及复杂应用场景。</p>
-                    </div>
-                </div>
-
-                <div class="product-list-item reveal" data-name="VS1053">
-                    <div class="product-image-wrapper">
-                        <img src="../Distributed_Products/vs1053.png" alt="VS1053">
-                    </div>
-                    <div class="product-info">
-                        <h3 class="product-name">VS1053 音频处理芯片</h3>
-                        <p class="product-description">支持 Ogg Vorbis/MP3/AAC/WMA/FLAC 等多种格式的高性能音频编解码器。</p>
-                    </div>
-                </div>
-
-                <div class="product-list-item reveal" data-name="VS1063">
-                    <div class="product-image-wrapper">
-                        <img src="../Distributed_Products/vs1063.png" alt="VS1063">
-                    </div>
-                    <div class="product-info">
-                        <h3 class="product-name">VS1063 音频编解码 SoC</h3>
-                        <p class="product-description">集成 MP3/OGG 编码功能的高级编解码芯片，广泛应用于网络广播和录音设备。</p>
-                    </div>
-                </div>
+                <!-- Product Items will be injected by JS -->
             </div>
 
             <div id="noResults" class="no-results">
@@ -143,8 +64,6 @@
             <div class="footer-bottom">
                 <p>© 2026 深圳市源合汇通科技有限公司. 版权所有.</p>
                 <div class="footer-legal">
-                    <a href="#">隐私政策</a>
-                    <a href="#">使用条款</a>
                     <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备17047300号</a>
                 </div>
             </div>
@@ -152,28 +71,51 @@
     </footer>
 
     <!-- Scripts -->
+    <script src="../js/products_data.js"></script>
     <script src="../js/main.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
+            const productList = document.getElementById('productList');
             const searchInput = document.getElementById('productSearch');
-            const productItems = document.querySelectorAll('.product-list-item');
             const noResults = document.getElementById('noResults');
+
+            function renderProducts(data) {
+                productList.innerHTML = data.map(product => {
+                    const primaryImage = `../Distributed_Products/${product.folder}/${product.images[0]}`;
+                    // Extract a short preview from description
+                    const preview = product.description 
+                        ? product.description.substring(0, 100).replace(/\n/g, ' ') + '...' 
+                        : '点击查看详细参数及数据手册。';
+
+                    return `
+                        <a href="product_detail.html?id=${product.id}" class="product-list-item reveal" data-name="${product.name}">
+                            <div class="product-image-wrapper">
+                                <img src="${primaryImage}" alt="${product.name}">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name">${product.name}</h3>
+                                <p class="product-description">${preview}</p>
+                                ${product.packages.length > 0 ? `<div style="margin-top: 8px;">${product.packages.map(p => `<span class="package-tag">${p}</span>`).join('')}</div>` : ''}
+                            </div>
+                        </a>
+                    `;
+                }).join('');
+                
+                // Re-initialize reveal observer for new elements
+                if (window.initReveal) window.initReveal();
+            }
+
+            renderProducts(productsData);
 
             searchInput.addEventListener('input', (e) => {
                 const searchTerm = e.target.value.toLowerCase().trim();
-                let hasVisibleItems = false;
+                const filtered = productsData.filter(p => 
+                    p.name.toLowerCase().includes(searchTerm) || 
+                    (p.description && p.description.toLowerCase().includes(searchTerm))
+                );
 
-                productItems.forEach(item => {
-                    const productName = item.getAttribute('data-name').toLowerCase();
-                    if (productName.includes(searchTerm)) {
-                        item.style.display = 'flex';
-                        hasVisibleItems = true;
-                    } else {
-                        item.style.display = 'none';
-                    }
-                });
-
-                noResults.style.display = hasVisibleItems ? 'none' : 'block';
+                renderProducts(filtered);
+                noResults.style.display = filtered.length > 0 ? 'none' : 'block';
             });
         });
     </script>
